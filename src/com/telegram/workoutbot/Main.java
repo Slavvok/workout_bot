@@ -8,11 +8,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		ApiContextInitializer.init();
-		TelegramBotsApi botsApi = new TelegramBotsApi();
+		TelegramBotsApi telegramBotsApi = new TelegramBotsApi();
 		try {
-			botsApi.registerBot(new WorkoutBot());
+			telegramBotsApi.registerBot(new WorkoutBot());
 		} catch (TelegramApiException e) {
-			
+			e.printStackTrace();
 		}
 	}
 
