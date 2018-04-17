@@ -1,1 +1,1 @@
-worker: sh target/bin/workerBot
+worker: java -jar WorkoutBot-0.0.1-SNAPSHOT.jar com.telegram.workoutbot.WorkoutBot
