@@ -13,7 +13,7 @@
                 <assembleDirectory>target</assembleDirectory>
                 <programs>
                     <program>
-                        <mainClass>com.telegram.workoutbot.WorkoutBot</mainClass>
+                        <mainClass>com.telegram.workoutbot.WorkoutBot.WorkoutBot</mainClass>
                         <name>workerBot</name>
                     </program>
                 </programs>
